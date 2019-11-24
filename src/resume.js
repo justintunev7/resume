@@ -14,7 +14,7 @@ const yearInSchool = 'Senior'
 const universityURL = 'https://www.byu.edu/'
 const universityName = 'Brigham Young University'
 const expectedGradDate = 'April, 2020'
-const activitiesAndClubs = []
+const activitiesAndClubs = ['','']
 
 const skills = [' JavaScript (Angular, Node.js, Vue.js, React, and Express)' , 
                 ' Ruby / Ruby on Rails' , ' Python' , ' Java' , ' C, C++' , ' Some Flutter (Dart)' ,
@@ -118,7 +118,7 @@ const resume = {
             `${degree} of ${major}`,
             `Current GPA: ${gpa}`,
             `Completed Coursework: ${classes}`,
-            `Activities: ${activitiesAndClubs}`
+            // `Activities: ${activitiesAndClubs}`
           ]
         }
       ]
